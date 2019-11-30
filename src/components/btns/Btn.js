@@ -1,11 +1,7 @@
 import React from "react";
 
 const Btn = ({ type }) => {
-  return (
-    <div>
-      <span>{type}</span>
-    </div>
-  );
+  return <div className="btn">{type}</div>;
 };
 
 export default Btn;

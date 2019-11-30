@@ -1,0 +1,15 @@
+.btn__row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    background: rgb(101, 28, 149);
+    color: #fff;
+    font-size: 1.2em;
+    margin: .5em;
+    padding: 1.25em;
+    text-align: center;
+    align-items: center;
+    width: 1em;
+}

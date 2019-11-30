@@ -1,7 +1,16 @@
 import React from "react";
 
-const Btn = ({ type }) => {
-  return <div className="btn">{type}</div>;
+const Btn = ({ type, handleClick }) => {
+  return (
+    <div
+      className="btn"
+      onClick={() => {
+        handleClick(type);
+      }}
+    >
+      {type}
+    </div>
+  );
 };
 
 export default Btn;

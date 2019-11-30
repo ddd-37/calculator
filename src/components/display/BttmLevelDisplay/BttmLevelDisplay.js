@@ -1,7 +1,7 @@
 import React from "react";
 
-const BttmLevelDisplay = () => {
-  return <div className="bttm-level-display">3000</div>;
+const BttmLevelDisplay = ({ bttmDisplay }) => {
+  return <div className="bttm-level-display">{bttmDisplay}</div>;
 };
 
 export default BttmLevelDisplay;

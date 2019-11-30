@@ -3,11 +3,11 @@ import React from "react";
 import TopLevelDisplay from "./TopLevelDisplay/TopLevelDisplay";
 import BttmLevelDisplay from "./BttmLevelDisplay/BttmLevelDisplay";
 
-const MainDisplay = () => {
+const MainDisplay = ({ bttmDisplay, topDisplay }) => {
   return (
     <div className="main-display">
-      <TopLevelDisplay />
-      <BttmLevelDisplay />
+      <TopLevelDisplay topDisplay={topDisplay} />
+      <BttmLevelDisplay bttmDisplay={bttmDisplay} />
     </div>
   );
 };
